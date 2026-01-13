@@ -4,6 +4,7 @@ This project implements an end-to-end AWS data pipeline to ingest, process, and 
 
 ## Architecture
 
+![Architecture](architecture.png)
 API → Apache NiFi (EC2) → Amazon S3 → Amazon EMR (Spark) → Amazon OpenSearch → Kibana
 
 Data Source:
